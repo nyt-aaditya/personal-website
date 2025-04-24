@@ -6,3 +6,12 @@ font-size: 22px;
 body {
     text-decoration-color: antiquewhite;
 }
+p{
+    text-emphasis-color: white;
+    text-align: center;
+}
+a{
+color: darkgrey;
+    color-scheme: darkgrey
+    ;
+}
