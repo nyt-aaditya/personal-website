@@ -1,0 +1,47 @@
+body{
+    background-color: lightblue;
+
+}
+header{ 
+    color:mediumspringgreen;
+    border-style: solid;
+    border-color: cadetblue;
+}
+nav{
+border-style: groove;
+border-color: aqua;
+text-decoration: aliceblue;
+animation: backwards;
+
+
+
+
+}
+h1{
+    color:blanchedalmond;
+}
+h2{
+    font-size: 29px;
+color: dodgerblue;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    color: darkcyan;
+    text-align: center;
+    line-height: 30px;
+}
+a{ color:dodgerblue;
+ font-size: 26px;
+}
+hr{ 
+    size:4px;
+    color:white;
+}
+
+ul{
+    color: rgb(0, 105, 105);
+    list-style: circle;
+    list-style-position: outside;
+    
+}
