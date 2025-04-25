@@ -11,23 +11,24 @@ nav{
 border-style: groove;
 border-color: aqua;
 text-decoration: aliceblue;
-animation: backwards;
-
-
-
+letter-spacing: 10px;
 
 }
 h1{
-    color:blanchedalmond;
+    color:rgb(0, 136, 247);
+    text-align: center;
+    size: 45px;
 }
 h2{
     font-size: 29px;
-color: dodgerblue;
+color: rgb(62, 115, 168);
+text-align: center;
+
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 22px;
-    color: darkcyan;
+    color: rgb(0, 41, 94);
     text-align: center;
     line-height: 30px;
 }
@@ -43,5 +44,19 @@ ul{
     color: rgb(0, 105, 105);
     list-style: circle;
     list-style-position: outside;
+    size: 150%;
     
 }
+li{
+    text-align: center;
+    list-style:disc;
+    color: rgba(0, 101, 184, 0.712);
+    font-size: larger;
+}
+legend{
+    text-align: center;
+    size: 120px; 
+    color: rgb(0, 66, 128);
+}
+
+
