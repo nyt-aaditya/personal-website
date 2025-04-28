@@ -1,17 +1,59 @@
-html{
-background-color: dimgrey;
-font-size: 22px;
+body {
+  background-color: lightblue;
 }
 
-body {
-    text-decoration-color: antiquewhite;
+header {
+  color: mediumspringgreen;
+  border-style: solid;
+  border-color: cadetblue;
 }
-p{
-    text-emphasis-color: white;
-    text-align: center;
+
+nav {
+  border-style: groove;
+  border-color: aqua;
+  text-decoration: aliceblue;
+  letter-spacing: 10px;
 }
-a{
-color: darkgrey;
-    color-scheme: darkgrey
-    ;
+h1 {
+  color: rgb(0, 136, 247);
+  text-align: center;
+  size: 45px;
+}
+h2 {
+  font-size: 29px;
+  color: rgb(62, 115, 168);
+  text-align: center;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: rgb(0, 41, 94);
+  text-align: center;
+  line-height: 30px;
+}
+a {
+  color: dodgerblue;
+  font-size: 26px;
+}
+hr {
+  size: 4px;
+  color: white;
+}
+
+ul {
+  color: rgb(0, 105, 105);
+  list-style: circle;
+  list-style-position: outside;
+  size: 150%;
+}
+li {
+  text-align: center;
+  list-style: disc;
+  color: rgba(0, 101, 184, 0.712);
+  font-size: larger;
+}
+legend {
+  text-align: center;
+  size: 120px;
+  color: rgb(0, 66, 128);
 }
