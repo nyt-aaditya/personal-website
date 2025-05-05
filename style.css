@@ -6,14 +6,19 @@ header {
   color: mediumspringgreen;
   border-style: solid;
   border-color: cadetblue;
+  padding: 5%;
+  border-radius: 25px;
 }
 
 nav {
   border-style: groove;
   border-color: aqua;
   text-decoration: aliceblue;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
+  padding: 2%;
+  border-radius: 18px;
 }
+
 h1 {
   color: rgb(0, 136, 247);
   text-align: center;
@@ -31,9 +36,16 @@ p {
   text-align: center;
   line-height: 30px;
 }
-a {
+a.home {
   color: dodgerblue;
   font-size: 26px;
+  border-color: rgb(12, 96, 223);
+  border-style: solid ;
+  border-radius: 25px;
+  border-spacing: 10px;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  
 }
 hr {
   size: 4px;
@@ -56,4 +68,7 @@ legend {
   text-align: center;
   size: 120px;
   color: rgb(0, 66, 128);
+}
+img{
+  margin-left: 43%;
 }
