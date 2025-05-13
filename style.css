@@ -39,3 +39,27 @@ header {
   justify-content: center;
   padding-left: 40px;
 }
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies .header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movies .cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.movies .cards-container .movie-card {
+  width: calc(100 / 3);
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+}
+.movies .cards-container .movie-card img {
+  width: 100%;
+}
