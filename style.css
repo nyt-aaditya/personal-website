@@ -1,74 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+
 }
 
 header {
-  color: mediumspringgreen;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.menu a {
+  color: #072ac8;
   border-style: solid;
-  border-color: cadetblue;
-  padding: 5%;
+  border-color: #072ac8;
+  padding: 5px;
   border-radius: 25px;
 }
 
-nav {
-  border-style: groove;
-  border-color: aqua;
-  text-decoration: aliceblue;
-  letter-spacing: 20px;
-  padding: 2%;
-  border-radius: 18px;
+.intro {
+  display: flex;
 }
 
-h1 {
-  color: rgb(0, 136, 247);
-  text-align: center;
-  size: 45px;
+.intro .image-container {
+  width: 25%;
 }
-h2 {
-  font-size: 29px;
-  color: rgb(62, 115, 168);
-  text-align: center;
+.intro .image-container img {
+  width: 100%;
 }
-p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 22px;
-  color: rgb(0, 41, 94);
-  text-align: center;
-  line-height: 30px;
+.intro .details-container {
+  width: full;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
 }
-a.home {
-  color: dodgerblue;
-  font-size: 26px;
-  border-color: rgb(12, 96, 223);
-  border-style: solid ;
-  border-radius: 25px;
-  border-spacing: 10px;
-  padding: 5px 5px 5px 5px;
-  text-decoration: none;
+.movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies .header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.movies .cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.movies .cards-container .movie-card {
+  width: calc(100 / 3);
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+}
+.movies .cards-container .movie-card img {
+  width: 100%;
+}
+
+.media{
+  display: flex;
+  flex-direction: column;
   
 }
-hr {
-  size: 4px;
-  color: white;
+.media .header-container{
+  display: flex;
+  justify-content: center;
 }
 
-ul {
-  color: rgb(0, 105, 105);
-  list-style: circle;
-  list-style-position: outside;
-  size: 150%;
+.media .video{
+  display:flex;
+  width: 100%;
 }
-li {
-  text-align: center;
-  list-style: disc;
-  color: rgba(0, 101, 184, 0.712);
-  font-size: larger;
-}
-legend {
-  text-align: center;
-  size: 120px;
-  color: rgb(0, 66, 128);
-}
-img{
-  margin-left: 43%;
+.media .video video{
+  width: 100%;
 }
